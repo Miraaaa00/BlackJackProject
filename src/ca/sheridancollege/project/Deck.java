@@ -7,14 +7,18 @@ package ca.sheridancollege.project;
 import java.util.ArrayList;
 
 /**
- *
- * @author Kristina
+ *This class represents a deck of cards in a Blackjack game.
+ *It is currently includes instance variables to store the cards and 
+ *a constructor to initialize and empty deck.
+ *Also have a method createFullDeck to populates 52 card deck by iterating through suit and value combination.
+ *toString method generates string representation of deck.
+ * @author Kristina/Jasmeen
  */
 public class Deck {
-    //instance vars
+    //Instance variables
     private ArrayList<Card> cards;
     
-    //construct
+    //Constructor
     public Deck(){
         this.cards =new ArrayList<Card>();
     }
@@ -28,7 +32,7 @@ public class Deck {
             }
         }
     }
-     //return string for  all of the card
+     //Get a string representation of all the cards in the deck
     public String toString(){
         String cardListOutput ="";
         int i =0;
