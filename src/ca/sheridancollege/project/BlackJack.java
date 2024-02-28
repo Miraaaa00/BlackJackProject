@@ -5,8 +5,9 @@
 package ca.sheridancollege.project;
 
 /**
- *
- * @author Kristina
+ *This Class implements the main functionality of the Blackjack game.
+ *Current codes will test and print all the 52 cards.
+ * @author Kristina / Jasmeen
  */
 public class BlackJack {
 
