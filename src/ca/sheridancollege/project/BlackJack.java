@@ -119,7 +119,7 @@ public class BlackJack {
             System.out.println("End of hand");
         }
 
-        System.out.println("Game Over! You are out of money.");
+        System.out.println("Dear " + playerName + ", unfortunately, you have run out of money. Game over!");
     }
     
 }
