@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package ca.sheridancollege.project;
-
+import java.util.Scanner;
 /**
  *This Class implements the main functionality of the Blackjack game.
  *It allows a player to interactively play Blackjack against a computer dealer.
