@@ -6,8 +6,11 @@ package ca.sheridancollege.project;
 
 /**
  *This Class implements the main functionality of the Blackjack game.
- *Current codes will test and print all the 52 cards.
- * @author Kristina / Jasmeen
+ *It allows a player to interactively play Blackjack against a computer dealer.
+ *The game includes features such as placing bets, drawing cards, and
+ *determining the winner based on the card values.
+ *The game continues in a loop until the player runs out of money.
+ * @author Maria / Jasmeen
  */
 public class BlackJack {
 
