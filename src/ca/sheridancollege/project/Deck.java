@@ -8,12 +8,12 @@ import java.util.ArrayList;
 import java.util.Random;
 
 /**
- *This class represents a deck of cards in a Blackjack game.
- *It is currently includes instance variables to store the cards and 
- *a constructor to initialize and empty deck.
- *Also have a method createFullDeck to populates 52 card deck by iterating through suit and value combination.
- *toString method generates string representation of deck.
- * @author Kristina/Jasmeen
+ *This Java class, named Deck, represents a deck of playing cards.
+ *It includes methods to initialize a full deck, shuffle the cards, 
+ *draw cards, and compute the total value of the cards in the deck. 
+ *Additionally, it provides functionality to move all cards from 
+ *one deck to another and manage the deck's size.
+ * @author Maria /Jasmeen
  */
 public class Deck {
     //Instance variables
